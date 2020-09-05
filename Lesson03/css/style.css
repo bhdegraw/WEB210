@@ -1,0 +1,67 @@
+
+/* 
+https://coolors.co/272727-2b50aa-e84855-f9dc5c-1b998b
+#272727 (Eerie Black)
+#2B50AA (Sapphire)
+#E84855 (Red Crayola)
+#F9DC5C (Naples Yellow)
+#1B998B (Persian Green)
+*/
+
+/* GLOBAL
+--------------------------------*/
+BODY {
+    color: #272727;
+}
+img {
+    width: 300px;
+}
+a {
+    color: #F9DC5C;
+}
+a:hover {
+    text-decoration: #1B998B;
+}
+
+/* PROFILE
+-------------------------------*/
+header {
+    background-color: #272727;
+    color: white;
+}
+
+/* projects
+-------------------------------*/
+.projects {
+    background-color: white;
+}
+.projects a {
+    color: #2B50AA;
+}
+.projects .btn {
+    color: #E84855;
+    background: #2B50AA;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 8px;
+}
+.projects .btn:hover{
+    background: rgba(43, 80, 170, 50%)
+}
+.projects
+/*work
+-------------------------------*/
+.work-exp {
+    background-color: white;
+}
+
+/*education
+-------------------------------*/
+
+
+/*contact
+-------------------------------*/
+footer {
+    background-color:#2B50AA;
+    color: white;
+}
