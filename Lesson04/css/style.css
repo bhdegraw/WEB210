@@ -1,0 +1,109 @@
+
+/* 
+https://coolors.co/272727-2b50aa-e84855-f9dc5c-1b998b
+#272727 (Eerie Black)
+#2B50AA (Sapphire)
+#E84855 (Red Crayola)
+#F9DC5C (Naples Yellow)
+#1B998B (Persian Green)
+*/
+
+/* GLOBAL
+--------------------------------*/
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+BODY {
+    color: #272727;
+    margin: 0;
+    padding: 0;
+    font-family:'Roboto', sans-serif;
+    font-size: 15px;
+    line height: 1.5;
+}
+img {
+    width: 300px;
+}
+a {
+    color: #F9DC5C;
+}
+a:hover {
+    text-decoration: #1B998B;
+}
+h1 {
+    font-size: 60px;
+}
+h2 {
+    font-size: 30px;
+}
+h1, h2 {
+    font-family: 'Prosto One', cursive;
+    margin: 0px;
+}
+.content-wrap{
+    width: 800px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+.clear {
+    clear: both;
+}
+
+/* PROFILE
+-------------------------------*/
+header {
+    background-color: #272727;
+    color: white;
+}
+
+/* projects
+-------------------------------*/
+.projects {
+    background-color: white;
+}
+.projects a {
+    color: #2B50AA;
+}
+.projects .btn {
+    color: #E84855;
+    background: #2B50AA;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 8px;
+    display: inline-block;
+}
+.projects .btn:hover{
+    background: rgba(43, 80, 170, 50%)
+}
+.projects-item {
+    padding-bottom: 155px;
+    border-bottom: 1px dashed #E84855;
+}
+.projects-item img {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.projects-item h3 {
+    margin-top: 0px;
+}
+/*work
+-------------------------------*/
+.work-exp {
+    background-color: white;
+}
+
+/*education
+-------------------------------*/
+
+
+/*contact
+-------------------------------*/
+footer {
+    background-color:#2B50AA;
+    color: white;
+}
