@@ -104,3 +104,39 @@ body {
           grid-row: 2;
       }
 
+      /*RESPONSIVE
+-------------------------------*/
+@media screen and (min-width: 750px) {
+    header, footer {
+        text-align: center;
+    }
+     .projects-item img {
+         float: left;
+         margin-right: 20px;
+         margin-bottom: 20px;
+     }
+ 
+     .grid {
+         display: grid;
+         grid-template-columns: 1fr 2fr;
+         column-gap: 40px;
+     }
+     .contact-list {
+         display: flex;
+         justify-content: space-between;
+     }
+ }
+ @media screen and (max-width: 749px) {
+     h1 {
+         font-size: 75px;
+         line-height: 0.9;
+         margin-bottom: 0;
+     }
+     h2 {
+         line-height: 1;
+     }
+ 
+ 
+ 
+ }
+
